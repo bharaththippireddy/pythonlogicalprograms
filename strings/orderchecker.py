@@ -1,0 +1,5 @@
+s = input('Enter a string')
+l = list(s)
+sorted_list = l.copy()
+sorted_list.sort()
+print("Ordered" if l == sorted_list else "Unordered")
